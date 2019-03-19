@@ -1,3 +1,10 @@
+## add
+use .disableStrictSSL(), otherwise defaults to true
+
+This is a valid use case, because simply ignoring security for the entire process with process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0 is unacceptable, and should be allowed to be set on a per request basis.
+
+--------------------------------------------
+
 # SuperAgent [![Build Status](https://travis-ci.org/visionmedia/superagent.svg?branch=master)](https://travis-ci.org/visionmedia/superagent) [![passively maintained.](https://img.shields.io/badge/maintenance-passively--maintained-yellowgreen.svg) ![Maintainers Wanted](https://img.shields.io/badge/maintainers-wanted-red.svg)](https://github.com/visionmedia/superagent/issues/1450)
 
 SuperAgent is a small progressive __client-side__ and __Node.js__ HTTP request library, sporting many high-level HTTP client features. View the [docs](https://visionmedia.github.io/superagent/).
