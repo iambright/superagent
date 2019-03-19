@@ -1,7 +1,7 @@
 {
-  "name": "superagent",
+  "name": "bright-superagent",
   "version": "4.1.0",
-  "description": "elegant & feature rich browser / node HTTP with a fluent API",
+  "description": "elegant & feature rich browser / node HTTP with a fluent API / add github user Whoaa512's commit daeba63faf185c015d61e2df5d60ecdad301d86e",
   "scripts": {
     "prepare": "make all",
     "test": "make test",
@@ -18,11 +18,12 @@
   "contributors": [
     "Kornel Lesiński <kornel@geekhood.net>",
     "Peter Lyons <pete@peterlyons.com>",
-    "Hunter Loftis <hunter@hunterloftis.com>"
+    "Hunter Loftis <hunter@hunterloftis.com>",
+    "C.J. Winslow <whoaa512@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/visionmedia/superagent.git"
+    "url": "git@github.com:iambright/superagent.git"
   },
   "dependencies": {
     "component-emitter": "^1.2.0",
